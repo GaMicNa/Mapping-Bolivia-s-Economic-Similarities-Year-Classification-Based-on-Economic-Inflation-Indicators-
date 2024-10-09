@@ -1,0 +1,857 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0613.1930                               -->
+<workbook original-version='18.1' source-build='2024.2.0 (20242.24.0613.1930)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <Extensions />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <_.fcp.VizExtensions.true...VizExtensions />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Hoja1 (P_Data_Extract_From_World_Development_Indicators)' inline='true' name='federated.0u5jb1e1fvxuiu129kv1i1y1rihc' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='P_Data_Extract_From_World_Development_Indicators' name='excel-direct.16mgie60lcmvvx1h1vfhh0bcwn49'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/ASUS/Downloads/P_Data_Extract_From_World_Development_Indicators.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.16mgie60lcmvvx1h1vfhh0bcwn49' name='Hoja1' table='[Hoja1$]' type='table'>
+          <columns gridOrigin='A1:M49:no:A1:M49:0' header='yes' outcome='2'>
+            <column datatype='string' name='Year' ordinal='0' />
+            <column datatype='real' name='Consumer price index (2010 = 100)' ordinal='1' />
+            <column datatype='real' name='Inflation, consumer prices (%)' ordinal='2' />
+            <column datatype='real' name='Inflation, GDP deflator (%)' ordinal='3' />
+            <column datatype='real' name='Lending interest rate (%)' ordinal='4' />
+            <column datatype='real' name='Real interest rate (%)' ordinal='5' />
+            <column datatype='real' name='Total debt service' ordinal='6' />
+            <column datatype='real' name='Total debt service (% of GNI)' ordinal='7' />
+            <column datatype='real' name='Current account balance (% of GDP)' ordinal='8' />
+            <column datatype='real' name='Current account balance (US$)' ordinal='9' />
+            <column datatype='real' name='Trade (% of GDP)' ordinal='10' />
+            <column datatype='integer' name='Total Population' ordinal='11' />
+            <column datatype='real' name='Current account balance by population ($)' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.16mgie60lcmvvx1h1vfhh0bcwn49' name='Hoja1' table='[Hoja1$]' type='table'>
+          <columns gridOrigin='A1:M49:no:A1:M49:0' header='yes' outcome='2'>
+            <column datatype='string' name='Year' ordinal='0' />
+            <column datatype='real' name='Consumer price index (2010 = 100)' ordinal='1' />
+            <column datatype='real' name='Inflation, consumer prices (%)' ordinal='2' />
+            <column datatype='real' name='Inflation, GDP deflator (%)' ordinal='3' />
+            <column datatype='real' name='Lending interest rate (%)' ordinal='4' />
+            <column datatype='real' name='Real interest rate (%)' ordinal='5' />
+            <column datatype='real' name='Total debt service' ordinal='6' />
+            <column datatype='real' name='Total debt service (% of GNI)' ordinal='7' />
+            <column datatype='real' name='Current account balance (% of GDP)' ordinal='8' />
+            <column datatype='real' name='Current account balance (US$)' ordinal='9' />
+            <column datatype='real' name='Trade (% of GDP)' ordinal='10' />
+            <column datatype='integer' name='Total Population' ordinal='11' />
+            <column datatype='real' name='Current account balance by population ($)' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>1</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:M49:no:A1:M49:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RBO_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_397FAA369C8E491EA5AB844D02B56A2C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Consumer price index (2010 = 100)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Consumer price index (2010 = 100)]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Consumer price index (2010 = 100)</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_397FAA369C8E491EA5AB844D02B56A2C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inflation, consumer prices (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Inflation, consumer prices (%)]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Inflation, consumer prices (%)</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_397FAA369C8E491EA5AB844D02B56A2C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inflation, GDP deflator (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Inflation, GDP deflator (%)]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Inflation, GDP deflator (%)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_397FAA369C8E491EA5AB844D02B56A2C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lending interest rate (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Lending interest rate (%)]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Lending interest rate (%)</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_397FAA369C8E491EA5AB844D02B56A2C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Real interest rate (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Real interest rate (%)]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Real interest rate (%)</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_397FAA369C8E491EA5AB844D02B56A2C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total debt service</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total debt service]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Total debt service</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_397FAA369C8E491EA5AB844D02B56A2C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total debt service (% of GNI)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total debt service (% of GNI)]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Total debt service (% of GNI)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_397FAA369C8E491EA5AB844D02B56A2C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Current account balance (% of GDP)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Current account balance (% of GDP)]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Current account balance (% of GDP)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_397FAA369C8E491EA5AB844D02B56A2C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Current account balance (US$)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Current account balance (US$)]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Current account balance (US$)</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_397FAA369C8E491EA5AB844D02B56A2C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Trade (% of GDP)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Trade (% of GDP)]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Trade (% of GDP)</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_397FAA369C8E491EA5AB844D02B56A2C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Population</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Population]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Total Population</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_397FAA369C8E491EA5AB844D02B56A2C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Current account balance by population ($)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Current account balance by population ($)]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Current account balance by population ($)</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_397FAA369C8E491EA5AB844D02B56A2C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Hoja1' datatype='table' name='[__tableau_internal_object_id__].[Hoja1_397FAA369C8E491EA5AB844D02B56A2C]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Bolivia&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Hoja1' id='Hoja1_397FAA369C8E491EA5AB844D02B56A2C'>
+            <properties context=''>
+              <relation connection='excel-direct.16mgie60lcmvvx1h1vfhh0bcwn49' name='Hoja1' table='[Hoja1$]' type='table'>
+                <columns gridOrigin='A1:M49:no:A1:M49:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Year' ordinal='0' />
+                  <column datatype='real' name='Consumer price index (2010 = 100)' ordinal='1' />
+                  <column datatype='real' name='Inflation, consumer prices (%)' ordinal='2' />
+                  <column datatype='real' name='Inflation, GDP deflator (%)' ordinal='3' />
+                  <column datatype='real' name='Lending interest rate (%)' ordinal='4' />
+                  <column datatype='real' name='Real interest rate (%)' ordinal='5' />
+                  <column datatype='real' name='Total debt service' ordinal='6' />
+                  <column datatype='real' name='Total debt service (% of GNI)' ordinal='7' />
+                  <column datatype='real' name='Current account balance (% of GDP)' ordinal='8' />
+                  <column datatype='real' name='Current account balance (US$)' ordinal='9' />
+                  <column datatype='real' name='Trade (% of GDP)' ordinal='10' />
+                  <column datatype='integer' name='Total Population' ordinal='11' />
+                  <column datatype='real' name='Current account balance by population ($)' ordinal='12' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Clustering_Results' inline='true' name='federated.1n1gfvb1ypjagc14c4lqv035wn3q' version='18.1'>
+      <connection class='federated' tableau-ri='true'>
+        <named-connections>
+          <named-connection caption='Clustering_Results' name='textscan.1sh2vry03vw4hj123jmjr041txfv'>
+            <connection class='textscan' directory='D:/GAMIC/PORTFOLIO/MAPPING ECONOMIC SIMILARITIES/02_CLUSTERING RESULTS' filename='Clustering_Results.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1sh2vry03vw4hj123jmjr041txfv' name='Clustering_Results.csv' table='[Clustering_Results#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='es_BO' separator=';'>
+            <column datatype='string' name='Year' ordinal='0' />
+            <column datatype='string' name='Cluster' ordinal='1' />
+            <column datatype='string' name='Key Political and Economic Events in Bolivia' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1sh2vry03vw4hj123jmjr041txfv' name='Clustering_Results.csv' table='[Clustering_Results#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='es_BO' separator=';'>
+            <column datatype='string' name='Year' ordinal='0' />
+            <column datatype='string' name='Cluster' ordinal='1' />
+            <column datatype='string' name='Key Political and Economic Events in Bolivia' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Clustering_Results.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;es&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;Bs&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;;&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;es_BO&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot;.&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Clustering_Results.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Clustering_Results.csv_753A848543C1417594CE0F50F1256629]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cluster</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Cluster]</local-name>
+            <parent-name>[Clustering_Results.csv]</parent-name>
+            <remote-alias>Cluster</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Clustering_Results.csv_753A848543C1417594CE0F50F1256629]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Key Political and Economic Events in Bolivia</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Key Political and Economic Events in Bolivia]</local-name>
+            <parent-name>[Clustering_Results.csv]</parent-name>
+            <remote-alias>Key Political and Economic Events in Bolivia</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Clustering_Results.csv_753A848543C1417594CE0F50F1256629]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Cluster]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Key Political and Economic Events in Bolivia]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Year]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Clustering_Results.csv' datatype='table' name='[__tableau_internal_object_id__].[Clustering_Results.csv_753A848543C1417594CE0F50F1256629]' role='measure' type='quantitative' />
+      <column-instance column='[Cluster]' derivation='None' name='[none:Cluster:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Key Political and Economic Events in Bolivia]' derivation='None' name='[none:Key Political and Economic Events in Bolivia:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Year]' derivation='None' name='[none:Year:nk]' pivot='key' type='nominal' />
+      <group hidden='true' name='[Exclusiones (Cluster,Key Political and Economic Events in Bolivia,Year)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Cluster:nk]' />
+          <groupfilter function='level-members' level='[none:Key Political and Economic Events in Bolivia:nk]' />
+          <groupfilter function='level-members' level='[none:Year:nk]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='es_ES' class='hyper' dbname='C:/Users/ASUS/Documents/Mi Repositorio de Tableau/Fuentes de datos/Clustering_ECONOMIC_BOLIVIAN.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='10/09/2024 08:30:35 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='Clustering_Results' increment-value='%null%' refresh-type='create' rows-inserted='48' timestamp-start='2024-10-09 20:30:34.844' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Year</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Year</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Clustering_Results.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>48</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Clustering_Results.csv_753A848543C1417594CE0F50F1256629]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Cluster</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Cluster]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Cluster</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Clustering_Results.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Clustering_Results.csv_753A848543C1417594CE0F50F1256629]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Key Political and Economic Events in Bolivia</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Key Political and Economic Events in Bolivia]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Key Political and Economic Events in Bolivia</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Clustering_Results.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Clustering_Results.csv_753A848543C1417594CE0F50F1256629]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Bolivia&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Clustering_Results.csv' id='Clustering_Results.csv_753A848543C1417594CE0F50F1256629'>
+            <properties context=''>
+              <relation connection='textscan.1sh2vry03vw4hj123jmjr041txfv' name='Clustering_Results.csv' table='[Clustering_Results#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='es_BO' separator=';'>
+                  <column datatype='string' name='Year' ordinal='0' />
+                  <column datatype='string' name='Cluster' ordinal='1' />
+                  <column datatype='string' name='Key Political and Economic Events in Bolivia' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Hoja 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#f28e2b' fontname='Britannic Bold'>Mapping Economic Similarities: Year Classification Using Machine Learning</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Clustering_Results' name='federated.1n1gfvb1ypjagc14c4lqv035wn3q' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1n1gfvb1ypjagc14c4lqv035wn3q'>
+            <column datatype='string' name='[Cluster]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Key Political and Economic Events in Bolivia]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Year]' role='dimension' type='nominal' />
+            <column-instance column='[Cluster]' derivation='None' name='[none:Cluster:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Key Political and Economic Events in Bolivia]' derivation='None' name='[none:Key Political and Economic Events in Bolivia:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <alphabetic-sort column='[federated.1n1gfvb1ypjagc14c4lqv035wn3q].[none:Key Political and Economic Events in Bolivia:nk]' direction='DESC' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-align' field='[federated.1n1gfvb1ypjagc14c4lqv035wn3q].[none:Key Political and Economic Events in Bolivia:nk]' value='center' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' data-class='total' value='#000000' />
+            <format attr='background-color' data-class='subtotal' value='#000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-align' field='[federated.1n1gfvb1ypjagc14c4lqv035wn3q].[none:Key Political and Economic Events in Bolivia:nk]' value='center' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='band-size' scope='cols' value='0' />
+            <format attr='background-color' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <_.fcp.VizExtensions.false...mark class='Automatic' />
+            <_.fcp.VizExtensions.true...mark class='VizExtension' />
+            <_.fcp.VizExtensions.true...add-in add-in-id='com.tableau.extension.sankey' extension-url='https://extensions.tableauusercontent.com/sandbox/sankey/sankey.html' extension-version='1.5.0' instance-id='E8AC98E998D747E692E2221FBDF0D4C5'>
+              <instance-settings>
+                <setting key='align-edges' value='true' />
+                <setting key='color-palette' value='orange_gold' />
+                <setting key='edge-padding' value='15' />
+                <setting key='ignore-nulls' value='true' />
+                <setting key='level-labels-font' value='{&quot;size&quot;:&quot;8pt&quot;,&quot;color&quot;:&quot;#000000&quot;,&quot;family&quot;:&quot;Arial&quot;,&quot;isBold&quot;:false,&quot;isItalic&quot;:false,&quot;isUnderlined&quot;:false}' />
+                <setting key='level-padding' value='7' />
+                <setting key='level-width' value='120' />
+                <setting key='show-level-labels' value='true' />
+                <setting key='show-top-labels' value='true' />
+                <setting key='top-labels-font' value='{&quot;size&quot;:&quot;11pt&quot;,&quot;color&quot;:&quot;#B4B4B4&quot;,&quot;family&quot;:&quot;Arial Black&quot;,&quot;isBold&quot;:true,&quot;isItalic&quot;:false,&quot;isUnderlined&quot;:false}' />
+              </instance-settings>
+              <type-settings>
+                <worksheet />
+              </type-settings>
+            </_.fcp.VizExtensions.true...add-in>
+            <encodings>
+              <_.fcp.VizExtensions.false...lod column='[federated.1n1gfvb1ypjagc14c4lqv035wn3q].[none:Year:nk]' />
+              <_.fcp.VizExtensions.true...custom column='[federated.1n1gfvb1ypjagc14c4lqv035wn3q].[none:Year:nk]' custom-type-name='level' />
+              <_.fcp.VizExtensions.false...lod column='[federated.1n1gfvb1ypjagc14c4lqv035wn3q].[none:Cluster:nk]' />
+              <_.fcp.VizExtensions.true...custom column='[federated.1n1gfvb1ypjagc14c4lqv035wn3q].[none:Cluster:nk]' custom-type-name='level' />
+              <_.fcp.VizExtensions.false...lod column='[federated.1n1gfvb1ypjagc14c4lqv035wn3q].[none:Key Political and Economic Events in Bolivia:nk]' />
+              <_.fcp.VizExtensions.true...custom column='[federated.1n1gfvb1ypjagc14c4lqv035wn3q].[none:Key Political and Economic Events in Bolivia:nk]' custom-type-name='level' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{303D0544-9F57-4ABB-9DFE-4C061D8AE1E4}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='1480' maxwidth='1300' minheight='1480' minwidth='1300' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98918' id='1' name='Hoja 1' w='98770' x='615' y='541'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='14' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98918' id='13' param='vert' type-v2='layout-flow' w='98770' x='615' y='541'>
+                <zone fixed-size='280' h='98918' id='1' is-fixed='true' name='Hoja 1' w='98770' x='615' y='541'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{A8297B56-36FC-4E1A-942F-878801C11B82}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='63'>
+    <window class='worksheet' maximized='true' name='Hoja 1' tab-color='#17927d'>
+      <cards>
+        <edge name='left'>
+          <strip size='248'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='44'>
+            <card type='columns' />
+          </strip>
+          <strip size='44'>
+            <card type='rows' />
+          </strip>
+          <strip size='44'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1n1gfvb1ypjagc14c4lqv035wn3q].[:Measure Names]</field>
+            <field>[federated.1n1gfvb1ypjagc14c4lqv035wn3q].[none:Cluster:nk]</field>
+            <field>[federated.1n1gfvb1ypjagc14c4lqv035wn3q].[none:Key Political and Economic Events in Bolivia:nk]</field>
+            <field>[federated.1n1gfvb1ypjagc14c4lqv035wn3q].[none:Year:nk]</field>
+            <field>[federated.1n1gfvb1ypjagc14c4lqv035wn3q].[none:Year:qk]</field>
+            <field>[federated.1n1gfvb1ypjagc14c4lqv035wn3q].[sum:Cluster:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6195D008-1C37-45DF-A4EF-EC5E6B54FC12}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Hoja 1' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{DE4AAC5F-E940-482E-9CA7-62FE402FFC9F}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+      QExTAGKaAhDTFICYpgDENAUgpikAMU0BiGkKQExTAGKaAhDTFICYpgDENAUgpikAMU0BiGkK
+      QExTAGKaAhDTFICYpgDENAUgpikAMU0BiGkKQExTAGKaAhDTFICYpgDENAUgpikAMU0BiGkK
+      QExTAGKaAhDTFICYpgDENAUgpikAMU0BiGkKQExTAGKaAhDTFICYpgDENAUgpikAMU0BiGkK
+      QExTAGKaAhDTFICYpgDENAUgpikAMU0BiGkKQExTAGKaAhDTFICYpgDENAUgpikAMU0BiGkK
+      QExTAGKaAhDTFICYpgDENAUgpikAMU0BiGkKQExTAGKaAhDTFICYpgDENAUgpikAMU0BiGkK
+      QExTAGKaAhDTFICYpgDENAUgpikAMU0BiGkKQExTAGKaAhDTFICYpgDENAUgpikAMU0BiGkK
+      QExTAGKaAhDTFICYpgDENAUgpikAMU0BiGkKQExTAGKaAhDTFICYpgDENAUgpikAMU0BiGkK
+      QExTAGKaAhDTFICYpgDENAUgpikAMU0BiGkKQExTAGKaAhDTFICYpgDENAUgpikAMU0BiGkK
+      QExTAGKaAhDTFICYpgDENAUgpikAMU0BiGkKQExTAGKaAhDTFICYpgDENAUgpikAMU0BiGkK
+      QExTAGKaAhDTFICYpgDENAUgpikAMU0BiGkKQExTAGKaAhDTFICYpgDENAUgpikAMU0BiGkK
+      QExTAGKaAhDTFICYpgDENAUgpikAMe0/Fff4Ul7a7pgAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Hoja 1' width='192'>
+      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
+      AAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+  <_.fcp.VizExtensions.true...referenced-extensions>
+    <_.fcp.VizExtensions.true...referenced-extension>
+      <manifest manifest-version='0.1'>
+        <worksheet-extension extension-version='1.5.0' id='com.tableau.extension.sankey'>
+          <default-locale>en_US</default-locale>
+          <name>Sankey</name>
+          <description>Visualisation of flows between nodes (levels) with proportionally sized edges.</description>
+          <author email='github@tableau.com' name='tableau' organization='tableau' website='https://www.tableau.com' />
+          <min-api-version>1.11</min-api-version>
+          <source-location>
+            <url>https://extensions.tableauusercontent.com/sandbox/sankey/sankey.html</url>
+          </source-location>
+          <icon />
+          <context-menu>
+            <configure-context-menu-item />
+          </context-menu>
+          <encoding id='level'>
+            <display-name resource-id='level-id'>Level</display-name>
+            <role-spec>
+              <role-type>discrete-dimension</role-type>
+              <role-type>discrete-measure</role-type>
+            </role-spec>
+            <fields max-count='5' />
+            <encoding-icon token='level' />
+            <tooltip resource-id='level-id'>Level</tooltip>
+          </encoding>
+          <encoding id='edge'>
+            <display-name resource-id='edge-id'>Link</display-name>
+            <role-spec>
+              <role-type>continuous-dimension</role-type>
+              <role-type>continuous-measure</role-type>
+            </role-spec>
+            <fields max-count='1' />
+            <encoding-icon token='edge' />
+            <tooltip resource-id='edge-id'>Edge</tooltip>
+          </encoding>
+        </worksheet-extension>
+        <resources>
+          <resource id='edge-id'>
+            <text locale='de_DE'>Verbindungen</text>
+            <text locale='en_GB'>Link</text>
+            <text locale='en_US'>Link</text>
+            <text locale='es_ES'>Vínculos</text>
+            <text locale='fr_CA'>Lien</text>
+            <text locale='fr_FR'>Lien</text>
+            <text locale='it_IT'>Collegamento</text>
+            <text locale='ja_JP'>リンク</text>
+            <text locale='ko_KR'>링크</text>
+            <text locale='pt_BR'>Elos</text>
+            <text locale='sv_SE'>länkar</text>
+            <text locale='th_TH'>ลิงก์</text>
+            <text locale='zh_CN'>链接</text>
+            <text locale='zh_TW'>連結</text>
+          </resource>
+          <resource id='level-id'>
+            <text locale='de_DE'>Ebene</text>
+            <text locale='en_GB'>Level</text>
+            <text locale='en_US'>Level</text>
+            <text locale='es_ES'>nivel</text>
+            <text locale='fr_CA'>niveau</text>
+            <text locale='fr_FR'>niveau</text>
+            <text locale='it_IT'>livello</text>
+            <text locale='ja_JP'>レベル</text>
+            <text locale='ko_KR'>레벨</text>
+            <text locale='pt_BR'>nível</text>
+            <text locale='sv_SE'>nivå</text>
+            <text locale='th_TH'>ระดับ</text>
+            <text locale='zh_CN'>级别</text>
+            <text locale='zh_TW'>級別</text>
+          </resource>
+        </resources>
+      </manifest>
+      <referenced-views>
+        <referenced-view instances='1' viewId='Hoja 1' />
+      </referenced-views>
+    </_.fcp.VizExtensions.true...referenced-extension>
+  </_.fcp.VizExtensions.true...referenced-extensions>
+</workbook>
